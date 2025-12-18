@@ -1,0 +1,52 @@
+\documentclass[sigconf]{acmart}
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+
+% ---------- VIEWER VARIABLE PANEL BEGIN ----------
+
+\newcommand{\lossOpacity}{1.0}
+\newcommand{\evalOpacity}{0.2}
+<conditions>
+
+% ----------  VIEWER VARIABLE PANEL END ----------
+
+\usepackage{pgfplots}
+\usepackage{sfmath}
+\usepackage{xcolor}
+\usepackage{float}
+\pgfplotsset{compat=newest}
+
+\definecolor{brightblue}{RGB}{51,153,255}
+\definecolor{brightorange}{RGB}{255,140,0}
+\definecolor{brightgreen}{RGB}{0,200,100}
+\definecolor{brightred}{RGB}{220,20,60}
+\definecolor{brightpurple}{RGB}{153,51,255}
+\definecolor{brightteal}{RGB}{0,180,180}
+\definecolor{brightyellow}{RGB}{255,215,0}
+\definecolor{brightpink}{RGB}{255,105,180}
+\definecolor{brightbrown}{RGB}{165, 82, 42}     % 棕色
+\definecolor{brightcyan}{RGB}{0, 220, 255}      % 亮青蓝
+\definecolor{brightlime}{RGB}{120, 190, 32}     % 柠檬绿
+\definecolor{brightcrimson}{RGB}{178, 34, 34}   % 深绯红
+\definecolor{brightaqua}{RGB}{72, 209, 204}     % 水绿
+\definecolor{brightolive}{RGB}{128, 128, 0}     % 橄榄色
+\definecolor{brightlavender}{RGB}{230, 190, 255}% 浅紫
+\definecolor{brightturquoise}{RGB}{64, 224, 208}% 亮松石绿
+
+\definecolor{ivory}{RGB}{255,255,240}
+
+\begin{document}
+
+\title{Visualization for \texttt{<ob>} Group}
+
+\author{Genemmender Observer}
+\email{https://github.com/Jyonn/Genemmender}
+
+\renewcommand{\shortauthors}{Observer}
+
+\maketitle
+
+<charts>
+
+\end{document}

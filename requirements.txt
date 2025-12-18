@@ -1,0 +1,12 @@
+pigmento
+refconfig
+transformers
+oba
+pandas
+unitok
+nltk
+gpustat
+numpy
+scikit-learn
+torch
+smartdict

@@ -1,0 +1,16 @@
+\begin{table*}[h]
+\caption{Dataset statistics in the \texttt{<ob>} group.}
+\centering
+
+\label{statistics@<label_ob>}
+
+\renewcommand{\arraystretch}{1.3}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}{l|<left>}
+\textbf{Dataset} & <head> \\
+<statistics>
+\hline
+\end{tabular}
+}
+\end{table*}

@@ -1,0 +1,4 @@
+$$import:
+  - ../kuairand/recall.yaml
+data: kuairandlarge
+processor: kuairandlarge

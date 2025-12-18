@@ -1,0 +1,39 @@
+mode: ${mode:train}
+save:
+  patience: ${patience:null}$
+  epoch: ${epoch:100}$
+  metric: ${metric:NDCG@10}
+validation:
+  global_validation: ${gv:true}$
+  mask_seen: ${mask:true}$  # only when global validation is used
+load:
+  sign: ${load}
+  strict: ${strict:true}$
+  model_only: ${model_only:false}$
+policy:
+  disable_neg_pool: ${disable_np:false}$
+  batch_size: ${bz:256}$
+  acc_batch: ${ab:1}$
+  embedding_dim: ${dim:64}$
+  lr: ${lr:0.001}$
+  warmup: 0
+  check_interval: -2
+  eval_interval: ${interval:1}$
+  action_weight: ${aw:1}$
+  item_weight: ${iw:1}$
+  sampling:
+    neg_num: ${neg:200}$
+    temperature: ${temp:1.0}$
+  decay: ${decay:1.0}$
+  use_segment_ids: ${seg:false}$
+  use_separators: ${sep:false}$
+  fusion: ${fusion:sum}$
+metrics:
+  - GAUC
+  - NDCG@1
+  - NDCG@10
+  - NDCG@20
+  - NDCG@50
+  - NDCG@100
+  - NDCG@200
+  - MRR

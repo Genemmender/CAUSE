@@ -1,0 +1,18 @@
+data: kuairand  # will automatically search kuairand processor
+processor: kuairand
+name: ${name:null}$
+  # ${} will convert the parameter into string.
+  # to keep the int, float and bool value, please use ${}$.
+  # more details can be found at https://github.com/Jyonn/smartdict
+config:
+  train_from: ${train}$
+  test_at: ${test}$
+  max_length: ${length}$
+  min_length: ${minl:10}$
+  test_num: ${test_num:5}$
+  val_num: ${val_num:5}$
+  n_core: ${n_core:5}$
+  builder_key: ${builder:v2}
+  filter_key: ${filter:ma}
+  group_num: ${gn:null}$
+  group_from: ${gf:null}$

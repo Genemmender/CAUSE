@@ -1,0 +1,5 @@
+$$import:
+  - common.yaml
+name: hstu
+config:
+  num_heads: ${heads:8}

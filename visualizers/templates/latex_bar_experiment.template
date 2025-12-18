@@ -1,0 +1,4 @@
+\addplot+[style={fill=<color>}] coordinates {
+<coordinates>
+};
+\addlegendentry{<legend>}

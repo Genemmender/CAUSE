@@ -1,0 +1,8 @@
+\addplot+[color=<color>, opacity=\<type>Opacity, mark=<mark>, thick, smooth, tension=0.5, solid, mark options={fill=<color>}] coordinates {
+<coordinates>
+};
+\addlegendentry{<legend>}
+
+\addplot+[forget plot, color=<color>, opacity=1, mark=<mark>, thick, smooth, tension=0.5, solid, mark options={fill=<color>}] coordinates {
+<best_coordinate>
+};

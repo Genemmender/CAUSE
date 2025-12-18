@@ -1,0 +1,16 @@
+\begin{table*}[h]
+\caption{<title> for <num> experiments in the \texttt{<ob>} group.}
+\centering
+
+\label{<label_ob>@<label_title>}
+
+\renewcommand{\arraystretch}{1.3}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}{l|<center>}
+\textbf{Experiment} & <head> \\
+\hline
+<experiments>
+\end{tabular}
+}
+\end{table*}

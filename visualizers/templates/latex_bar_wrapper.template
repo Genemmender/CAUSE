@@ -1,0 +1,36 @@
+\begin{figure<star>}[h]
+\centering
+
+\resizebox{\linewidth}{!}{
+\begin{tikzpicture}
+\begin{axis}[
+    ybar,
+    bar width=0.15cm,
+    legend pos=<position>,
+    legend style={draw=none, fill=none, font=\footnotesize, text opacity=0.8},
+    grid=major,
+    major grid style={dashed, gray!30, thin},
+    axis background/.style={fill=ivory},
+    axis line style={thin, gray!50},
+    width=<width>,
+    height=<height>,
+    ymin=0,
+    enlargelimits=auto,
+    restrict y to domain*=0:100,
+    axis on top,
+    xtick=data,
+    symbolic x coords={<metrics>},
+    font=\sffamily,
+    clip=true,
+]
+
+<experiments>
+
+\end{axis}
+\end{tikzpicture}
+}
+
+\caption{<title> for <num> experiment(s) in the \texttt{<ob>} group.}
+\label{fig:<label_ob>@<label_title>}
+
+\end{figure<star>}

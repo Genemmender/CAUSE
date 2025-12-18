@@ -1,0 +1,3 @@
+\ifnum\csname <name>\endcsname=1
+    <condition>
+\fi

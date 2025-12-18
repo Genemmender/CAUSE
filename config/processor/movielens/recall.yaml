@@ -1,0 +1,10 @@
+data: movielens  # will automatically search kuairand processor
+processor: movielens
+name: ${name:null}$
+  # ${} will convert the parameter into string.
+  # to keep the int, float and bool value, please use ${}$.
+  # more details can be found at https://github.com/Jyonn/smartdict
+config:
+  max_length: ${length}$
+  min_length: ${minl:10}$
+  test_num: ${test_num:5}$

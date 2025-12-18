@@ -1,0 +1,11 @@
+config:
+  num_layers: ${layers:3}
+  embedding_dim: ${exp.policy.embedding_dim}$
+  seq_type: ${seq}
+  use_item_content: ${item:false}$
+  history:
+    activate: ${ha:false}$
+    group: ${hg:null}$
+    max_groups: ${mg:0}$
+    max_items_per_group: ${mi:0}$
+    skip_group: ${sg:0}$
